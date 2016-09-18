@@ -1,6 +1,9 @@
 let name = "Audrey"
-name.uppercased()
+let uppercaseAudrey = name.uppercaseString
 
-let uppercaseName = name.uppercased()
-print("\(name)... \(name)... \(uppercaseName)! WAKE UP!")
+print("\(name)... \(name)... \(uppercaseAudrey)! WAKE UP!")
 // prints "Audrey... Audrey... AUDREY! WAKE UP!")
+
+let lowercaseAudrey = name.lowercaseString;
+
+print("Her name in lower case is \(lowercaseAudrey)")
