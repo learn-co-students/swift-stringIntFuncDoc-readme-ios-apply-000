@@ -1,6 +1,11 @@
 let name = "Audrey"
-name.uppercased()
+name.uppercaseString
 
-let uppercaseName = name.uppercased()
-print("\(name)... \(name)... \(uppercaseName)! WAKE UP!")
-// prints "Audrey... Audrey... AUDREY! WAKE UP!")
+
+
+// a method is just a function that is attached to a particular data type
+// the constant/variable name is put first, followed by a dot, then the name of the method
+
+let capitalName = name.uppercaseString
+print("\(name), \(capitalName)")
+
