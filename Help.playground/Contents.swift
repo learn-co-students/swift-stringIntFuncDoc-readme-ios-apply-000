@@ -3,4 +3,10 @@ name.uppercased()
 
 let uppercaseName = name.uppercased()
 print("\(name)... \(name)... \(uppercaseName)! WAKE UP!")
-// prints "Audrey... Audrey... AUDREY! WAKE UP!")
+
+let newName = "misha"
+newName.uppercased()
+
+let upName = newName.uppercased()
+
+print("\(name), \(name), \(upName)")
