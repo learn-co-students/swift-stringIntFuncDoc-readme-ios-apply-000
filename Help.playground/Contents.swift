@@ -1,5 +1,4 @@
 let name = "Alex"
-
 name.uppercased()
 
 let uppercaseName = name.uppercased()
