@@ -1,4 +1,5 @@
-let name = "Audrey"
+let name = "Alex"
+
 name.uppercased()
 
 let uppercaseName = name.uppercased()
