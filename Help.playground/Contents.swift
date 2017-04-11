@@ -1,6 +1,5 @@
-let name = "Audrey"
-name.uppercased()
+let myName = "Mike"
+let myNameExtended = "MIIIIIIIIIIIKE"
+let myNameUppercased = myName.uppercased()
 
-let uppercaseName = name.uppercased()
-print("\(name)... \(name)... \(uppercaseName)! WAKE UP!")
-// prints "Audrey... Audrey... AUDREY! WAKE UP!")
+print ("\(myName)... \(myNameUppercased)... \(myNameExtended). WAKE UP!!!")
